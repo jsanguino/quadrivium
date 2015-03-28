@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" 
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   >
+   
+<ImageView android:id="@+id/ImageView01"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+	/>   
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical"
+ android:layout_width="wrap_content" 
+ android:layout_height="fill_parent"
+ android:layout_alignParentLeft="true"
+ android:background="#99000000"
+ android:gravity="center_vertical"
+ android:layout_gravity="center_vertical">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"
+ android:gravity="center_vertical"
+ android:layout_gravity="center_vertical"
+>
+
+<ImageView android:id="@+id/Mobialia"
+ android:src="@drawable/koritsi"		
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentTop="true"
+ android:layout_alignParentLeft="true"
+/>
+
+<TextView
+ android:text="@string/app_name_version"
+ android:id="@+id/Version"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:textColor="#ffffff"
+ android:textSize="24sp"
+ />
+
+<TextView
+ android:text="Category"
+ android:id="@+id/Category"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:textColor="#ffffff"
+ android:textSize="30sp"
+ />
+</LinearLayout>
+</LinearLayout>
+	
+<ImageButton android:id="@+id/ImageButton"
+	android:src="@drawable/button"
+	android:background="#00000000"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+	/>
+
+<Gallery xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/Gallery"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom='true'
+	/>
+
+</RelativeLayout><!-- From: file:/media/5F3F-90A9/Quadrivium/com.koritsi.quadrivium/app/src/main/res/layout/intro.xml -->

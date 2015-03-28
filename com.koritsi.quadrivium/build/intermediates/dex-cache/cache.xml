@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/media/5F3F-90A9/Quadrivium/com.koritsi.quadrivium/app/libs/GoogleAdMobAdsSdk-4.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6f35996c7c14b39ef233054a19483f9fed8a8bf3">
+        <dex dex="/media/5F3F-90A9/Quadrivium/com.koritsi.quadrivium/app/build/intermediates/pre-dexed/debug/GoogleAdMobAdsSdk-4.3.1-80324f0baf7926dbda2789e79f609d1edf9d8d44.jar" />
+    </item>
+
+</items>

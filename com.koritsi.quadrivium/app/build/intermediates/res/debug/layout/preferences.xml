@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <CheckBoxPreference
+                android:key="sound"
+                android:title="@string/preferences_sound"
+                android:summary="@string/preferences_sound_summary"
+                android:defaultValue="true"/>
+
+        <CheckBoxPreference
+                android:key="vibration"
+                android:title="@string/preferences_vibration"
+                android:summary="@string/preferences_vibration_summary"
+                android:defaultValue="true"/>
+                
+        <CheckBoxPreference
+                android:key="tts"
+                android:title="@string/preferences_tts"
+                android:summary="@string/preferences_tts_summary"
+                android:defaultValue="false"/>
+        <CheckBoxPreference
+                android:key="keepon"
+                android:title="@string/preferences_keepon"
+                android:summary="@string/preferences_keepon_summary"
+                android:defaultValue="false"/>
+                
+        <PreferenceCategory
+            android:title="@string/preferences_clockCategory">
+            <CheckBoxPreference
+                    android:key="clock"
+                    android:title="@string/preferences_clock"
+                    android:summary="@string/preferences_clock_summary"
+                    android:defaultValue="false"/>
+                    />
+            <EditTextPreference
+                    android:key="clock_answer"
+                    android:dependency="clock"
+                    android:layout="?android:attr/preferenceLayoutChild"
+                    android:title="@string/preferences_clock_answer"
+                    android:summary="@string/preferences_clock_answer_summary"
+                    android:dialogTitle="@string/preferences_clock_answer_dialog"
+                    android:numeric="integer"
+                    android:defaultValue="15"
+                    />
+            <EditTextPreference
+                    android:key="clock_question"
+                    android:dependency="clock"
+                    android:layout="?android:attr/preferenceLayoutChild"
+                    android:title="@string/preferences_clock_question"
+                    android:summary="@string/preferences_clock_question_summary"
+                    android:dialogTitle="@string/preferences_clock_question_dialog"
+                    android:numeric="integer"
+                    android:defaultValue="5"
+                    />
+         </PreferenceCategory>
+
+</PreferenceScreen>
+<!-- From: file:/media/5F3F-90A9/Quadrivium/com.koritsi.quadrivium/app/src/main/res/layout/preferences.xml -->

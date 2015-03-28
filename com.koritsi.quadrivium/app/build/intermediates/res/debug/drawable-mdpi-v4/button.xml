@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+          android:drawable="@drawable/play_pressed" /> <!-- pressed -->
+    <item android:state_focused="true"
+          android:drawable="@drawable/play" /> <!-- focused -->
+    <item android:drawable="@drawable/play" /> <!-- default -->
+</selector><!-- From: file:/media/5F3F-90A9/Quadrivium/com.koritsi.quadrivium/app/src/main/res/drawable-mdpi/button.xml -->

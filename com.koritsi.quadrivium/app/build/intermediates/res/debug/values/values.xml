@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="default_gallery"><attr name="android:galleryItemBackground"/></declare-styleable>
+    <!-- From: file:/media/5F3F-90A9/Quadrivium/com.koritsi.quadrivium/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Quadrivium</string>
+    <string name="app_name_version">Quadrivium versión 0.1</string>
+    <string name="btn_display">Enviar</string>
+    <string name="category_art">Art</string>
+    <string name="category_heritage">Heritage</string>
+    <string name="category_mithology">Mithology</string>
+    <string name="category_private_life">Private Life</string>
+    <string name="category_public_life">Public Life</string>
+    <string name="category_random">Random</string>
+    <string name="category_war">War</string>
+    <string name="error_tts">Error inicializando la conversión texto a voz, por favor instale la Síntesis de Voz en Ajustes->Síntetis de voz</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_more">Más apps de Koritsi S.L.</string>
+    <string name="menu_settings">Configuración</string>
+    <string name="preferences_clock">Reloj</string>
+    <string name="preferences_clockCategory">Reloj</string>
+    <string name="preferences_clock_answer">Pre-respuesta</string>
+    <string name="preferences_clock_answer_dialog">Segundos hasta responder</string>
+    <string name="preferences_clock_answer_summary">...antes de responder</string>
+    <string name="preferences_clock_question">Post-respuesta</string>
+    <string name="preferences_clock_question_dialog">Segundos hasta nueva pregunta</string>
+    <string name="preferences_clock_question_summary">...antes de volver a preguntar</string>
+    <string name="preferences_clock_summary">Temporizador para responder...</string>
+    <string name="preferences_keepon">Siempre encendido</string>
+    <string name="preferences_keepon_summary">Impide que el sistema entre en suspensión</string>
+    <string name="preferences_sound">Sonido</string>
+    <string name="preferences_sound_summary">Reproducir efectos de wonido</string>
+    <string name="preferences_tts">Habla</string>
+    <string name="preferences_tts_summary">Hablar las preguntas, requiere tener instalada la síntesis de voz</string>
+    <string name="preferences_vibration">Vibración</string>
+    <string name="preferences_vibration_summary">Vibrar al pulsar botones</string>
+    <string name="resp_1">Respuesta 1</string>
+    <string name="resp_2">Respuesta 2</string>
+    <string name="resp_3">Respuesta 3</string>
+</resources>
